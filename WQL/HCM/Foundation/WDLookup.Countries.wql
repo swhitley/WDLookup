@@ -1,0 +1,9 @@
+/*
+Name: WDLookup.Countries
+Purpose: Return a list of countries and alpha codes.
+Author: Shannon Whitley
+Company: Whitley Media
+Link: n/a
+*/
+SELECT countryName, alpha_3Code, alpha_2Code 
+FROM countries
