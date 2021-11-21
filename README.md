@@ -77,12 +77,13 @@ In your Workday tenant...
 ### Adding a new API Client
 1. In Excel, from the **Add-ins** menu item, start **WDLookup**.
 2. Click the **WDLookup Settings** button. 
-   ![image](https://user-images.githubusercontent.com/413552/142780606-39f4fbb3-4709-4cf2-893a-d9d4762ddcfe.png)
-4. If the Name is not already set to "{New}", click the **Add API Client** button.
-5. Enter the API Client information from Workday.
-6. Leave **Access Token** blank.
-7. Click **Save** to save the API Client.
-8. Click **Test** to verify a successful connection to Workday.
+
+   <img src="https://user-images.githubusercontent.com/413552/142780606-39f4fbb3-4709-4cf2-893a-d9d4762ddcfe.png" width="32" />
+3. If the Name is not already set to "{New}", click the **Add API Client** button.
+4. Enter the API Client information from Workday.
+5. Leave **Access Token** blank.
+6. Click **Save** to save the API Client.
+7. Click **Test** to verify a successful connection to Workday.
 
 ![image](https://user-images.githubusercontent.com/413552/142780581-543f2cf9-9a71-49b3-b38a-1aeff4dca98c.png)
 
