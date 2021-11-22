@@ -2,6 +2,8 @@
 
 This is a library of WQL queries. They can be used generally with any WQL tool or with the WDLookup Excel Add-in (Windows only).
 
+Anyone is welcome to contribute to this library. Submit a pull request for review.  Please follow the example to include information about the query.  In the future, there are plans to parse the files and enable an electronic dictionary.
+
 If you will be using the WDLookup Excel Add-in, the configuration instructions are show below.
 
 ## Workday API Client Setup
@@ -70,7 +72,9 @@ In your Workday tenant...
 
 10. Copy and save the refresh token for later.
 
-**[Workday Configuration Complete]**
+**Workday Configuration Complete**
+
+
 
 ## WDLookup Configuration
 
@@ -86,4 +90,16 @@ In your Workday tenant...
 7. Click **Test** to verify a successful connection to Workday.
 
 ![image](https://user-images.githubusercontent.com/413552/142780581-543f2cf9-9a71-49b3-b38a-1aeff4dca98c.png)
+
+### Running a Query
+
+TODO
+
+### Performing a Lookup and Reverse Lookup
+
+TODO
+
+
+
+
 
