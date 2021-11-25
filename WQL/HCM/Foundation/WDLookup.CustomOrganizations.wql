@@ -1,0 +1,10 @@
+/*
+Name: WDLookup.CustomOrganizations
+Purpose: Return a list of custom organizations and their reference ids.
+Author: Shannon Whitley
+Company: Whitley Media
+Link: n/a
+Tags: Custom Organization
+*/
+SELECT organization, referenceID1
+FROM customOrganizations
