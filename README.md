@@ -15,7 +15,9 @@ If you would like to use WDLookup to execute the queries from this library, down
 
 **https://whitleymedia.onfastspring.com/**
 
-**IMPORTANT:** The add-in is fully-functional except that it is limited to returning *10 rows of data per query*. Purchase a registration code to unlock the ability to return all rows of data.
+**IMPORTANT:** The add-in is fully-functional except that it is limited to returning *10 rows of data per query*. This limitation can affect your ability to translate data using the **Lookup** feature.  Remember that only the first 10 rows of the lookup query are returned so data outside of the first 10 rows cannot be translated. 
+
+Purchase a registration code to unlock the ability to return all rows of data.
 
 ## Workday API Client Setup for WDLookup
 
@@ -117,6 +119,8 @@ The following pieces of information need to be collected during these steps:
 ### Performing a Lookup and Reverse Lookup
 
 WDLookup has a handy right-click menu that will execute the currently displayed query.
+
+Remember, if you are using the unregistered version of WDLookup, only 10 rows of data will be returned. This applies to the lookup as well.  For example, you may be able to perform a lookup on a country that starts with "A", but a country that starts with "U" may not be returned and translated.  
 
 The query results will be used to lookup the data in the highlighted cells and translate the data if it matches the first column of the query.  The translation will update each selected cell with data from the second column in the query.  If a translation cannot be made, the cell will be highlighted in yellow.
 
