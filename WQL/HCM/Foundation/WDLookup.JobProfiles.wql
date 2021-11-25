@@ -1,0 +1,10 @@
+/*
+Name: WDLookup.JobProfiles
+Purpose: Return a list of job profiles and their reference ids.
+Author: Shannon Whitley
+Company: Whitley Media
+Link: n/a
+Tags: Job Profile
+*/
+SELECT jobProfile, referenceID1
+FROM allJobProfiles
