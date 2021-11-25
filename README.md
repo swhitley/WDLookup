@@ -1,6 +1,6 @@
 # WDLookup Queries
 
-This is a library of WQL queries. They can be used generally with any WQL tool or with the WDLookup Excel Add-in (Windows only).
+This is a library of WQL queries. The queries can be used generally with any WQL tool or with the WDLookup Excel Add-in (Windows only).
 
 Anyone is welcome to contribute to this library. Submit a pull request for review.  If you do not know how to submit a pull request, paste the query into a discussion post. Please follow the example to include information about the query.  In the future, there are plans to parse the files and enable an electronic dictionary.
 
