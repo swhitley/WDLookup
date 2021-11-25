@@ -6,7 +6,19 @@ Anyone is welcome to contribute to this library. Submit a pull request for revie
 
 If you will be using the WDLookup Excel Add-in, the configuration instructions are shown below.
 
-## Workday API Client Setup
+
+# WDLookup Excel Add-in
+
+WDLookup is a Microsoft Excel Add-in (Windows only) that enables querying data from Workday using WQL.
+
+If you would like to use WDLookup to execute the queries from this library, download and install WDLookup from the following link. 
+
+**https://whitleymedia.onfastspring.com/**
+
+The add-in is fully-functional except that it is limited to returning 10 rows of data per query. Purchase a registration code to unlock the ability to return all rows of data.
+
+## Workday API Client Setup for WDLookup
+
 WDLookup requires an API client connection for Workday.  This is a one-time setup requirement and requires less time than you think. ;)
 
 The following pieces of information need to be collected during these steps:
@@ -23,38 +35,38 @@ The following pieces of information need to be collected during these steps:
 
 ### Let's Get Started
 
-In your Workday tenant...
+#### In your Workday tenant...
 
 1. Turn on oAuth 2.0
 
-    **Task:** Edit Tenant Setup - Security
+    **Search for Task:** Edit Tenant Setup - Security
 
 ![image](https://user-images.githubusercontent.com/413552/142732206-bfdcf00e-b7f9-42f7-a841-5c2836be95cd.png)
 
 2. Register an API Client for Integrations
 
-    **Task:** Register API Client for Integrations
+    **Search for Task:** Register API Client for Integrations
 
-    a. Check **Non-Expiring Refresh Tokens**.
+      a. Check **Non-Expiring Refresh Tokens**.
 
-    b. Select **System** for the Scope.
+      b. Select **System** for the Scope.
 
-    c. Click OK.
+      c. Click OK.
 
-    d. On the next screen, scroll to the bottom of the page.
+      d. On the next screen, scroll to the bottom of the page.
 
-    e. Copy your *Client ID* and *Client Secret* so that they can be used later.
+      e. Copy your *Client ID* and *Client Secret* so that they can be used later.
 
 ![image](https://user-images.githubusercontent.com/413552/142732320-f7f3a7d5-a851-4d50-889d-c54e84706012.png)
 
 3. View API Clients
 
-    **Task:**  View API Clients
+    **Search for Task:**  View API Clients
 
     Save the following urls for later:
     
-        * Workday REST API Endpoint
-        * Token Endpoint
+        - Workday REST API Endpoint
+        - Token Endpoint
 
 4. Click the **API Clients for Integrations** tab.
 5. Click on the link for your newly created API Client.
@@ -79,21 +91,22 @@ In your Workday tenant...
 ## WDLookup Configuration
 
 ### Adding a new API Client
-1. In Excel, from the **Add-ins** menu item, start **WDLookup**.
+1. In Excel, from the **Add-ins** menu, start **WDLookup**.
 2. Click the **WDLookup Settings** button. 
 
    <img src="https://user-images.githubusercontent.com/413552/142780606-39f4fbb3-4709-4cf2-893a-d9d4762ddcfe.png" width="32" />
 3. If the Name is not already set to "{New}", click the **Add API Client** button.
-4. Enter the API Client information from Workday.
-5. Leave **Access Token** blank.
-6. Click **Save** to save the API Client.
-7. Click **Test** to verify a successful connection to Workday.
+4. Name your API Client. You can use any name that makes sense to you.
+5. Enter the API Client information from Workday.
+6. Leave **Access Token** blank.
+7. Click **Save** to save the API Client.
+8. Click **Test** to verify a successful connection to Workday.
 
 ![image](https://user-images.githubusercontent.com/413552/142780581-543f2cf9-9a71-49b3-b38a-1aeff4dca98c.png)
 
 ### Running a Query
 
-1. Enter a WQL query into the query textbox in WDLookup.
+1. Enter a WQL query into the query textbox.
 2. Click the **Run** button.
 3. The query results will be pasted into the active Excel worksheet.
 4. Please note that existing data in the spreadsheet will be cleared to make way for the query data.
@@ -107,7 +120,7 @@ WDLookup has a handy right-click menu that will execute the currently displayed 
 
 The query results will be used to lookup the data in the highlighted cells and translate the data if it matches the first column of the query.  The translation will update each selected cell with data from the second column in the query.  If a translation cannot be made, the cell will be highlighted in yellow.
 
-The reverse lookup feature reverses the process without any change to the query.  The reverse lookup performs a lookup in reverse (the second field is the selector and the first field is the translation), it does not simply undo the results of the previous operation.
+The reverse lookup feature reverses the process without any change to the query.  The reverse lookup performs a lookup in reverse (the second field is the selector and the first field is the translation); it does not simply undo the results of the previous operation.
 
 
 [![Watch the video](https://img.youtube.com/vi/bCCusSF4GGA/maxresdefault.jpg)](https://www.youtube.com/watch?v=bCCusSF4GGA)
