@@ -15,7 +15,7 @@ If you would like to use WDLookup to execute the queries from this library, down
 
 **https://whitleymedia.onfastspring.com/**
 
-The add-in is fully-functional except that it is limited to returning 10 rows of data per query. Purchase a registration code to unlock the ability to return all rows of data.
+**IMPORTANT:** The add-in is fully-functional except that it is limited to returning *10 rows of data per query*. Purchase a registration code to unlock the ability to return all rows of data.
 
 ## Workday API Client Setup for WDLookup
 
