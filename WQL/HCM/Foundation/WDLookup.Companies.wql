@@ -1,0 +1,10 @@
+/*
+Name: WDLookup.Companies
+Purpose: Return a list of companies and their reference ids.
+Author: Shannon Whitley
+Company: Whitley Media
+Link: n/a
+Tags: Company
+*/
+SELECT company, referenceID1
+FROM companies
