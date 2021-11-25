@@ -1,0 +1,10 @@
+/*
+Name: WDLookup.Countries
+Purpose: Return a list of countries and alpha codes.
+Author: Shannon Whitley
+Company: Whitley Media
+Link: n/a
+Tags: ISO_3166-1_Alpha-2_Code, Country
+*/
+SELECT countryName, alpha_3Code, alpha_2Code 
+FROM countries
