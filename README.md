@@ -2,9 +2,9 @@
 
 This is a library of WQL queries. They can be used generally with any WQL tool or with the WDLookup Excel Add-in (Windows only).
 
-Anyone is welcome to contribute to this library. Submit a pull request for review.  Please follow the example to include information about the query.  In the future, there are plans to parse the files and enable an electronic dictionary.
+Anyone is welcome to contribute to this library. Submit a pull request for review.  If you do not know how to submit a pull request, paste the query into a discussion post. Please follow the example to include information about the query.  In the future, there are plans to parse the files and enable an electronic dictionary.
 
-If you will be using the WDLookup Excel Add-in, the configuration instructions are show below.
+If you will be using the WDLookup Excel Add-in, the configuration instructions are shown below.
 
 ## Workday API Client Setup
 WDLookup requires an API client connection for Workday.  This is a one-time setup requirement and requires less time than you think. ;)
@@ -93,13 +93,24 @@ In your Workday tenant...
 
 ### Running a Query
 
-TODO
+1. Enter a WQL query into the query textbox in WDLookup.
+2. Click the **Run** button.
+3. The query results will be pasted into the active Excel worksheet.
+4. Please note that existing data in the spreadsheet will be cleared to make way for the query data.
+
+ ![image](https://user-images.githubusercontent.com/413552/143399956-041fff33-29ce-44e9-ab8e-7e9f39ae4832.png)
+
 
 ### Performing a Lookup and Reverse Lookup
 
-TODO
+WDLookup has a handy right-click menu that will execute the currently displayed query.
+
+The query results will be used to lookup the data in the highlighted cells and translate the data if it matches the first column of the query.  The translation will update each selected cell with data from the second column in the query.  If a translation cannot be made, the cell will be highlighted in yellow.
+
+The reverse lookup feature reverses the process without any change to the query.  The reverse lookup performs a lookup in reverse (the second field is the selector and the first field is the translation), it does not simply undo the results of the previous operation.
 
 
+[![Watch the video](https://img.youtube.com/vi/bCCusSF4GGA/maxresdefault.jpg)](https://www.youtube.com/watch?v=bCCusSF4GGA)
 
 
 
