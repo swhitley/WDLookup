@@ -1,0 +1,10 @@
+/*
+Name: WDLookup.CostCenters
+Purpose: Return a list of cost centers and their reference ids.
+Author: Shannon Whitley
+Company: Whitley Media
+Link: n/a
+Tags: Cost Center
+*/
+SELECT costCenter, referenceID1
+FROM costCenters
