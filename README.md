@@ -126,4 +126,22 @@ The reverse lookup feature reverses the process without any change to the query.
 [![Watch the video](https://img.youtube.com/vi/bCCusSF4GGA/maxresdefault.jpg)](https://www.youtube.com/watch?v=bCCusSF4GGA)
 
 
+### Registering WDLookup
+
+Unlock WDLookup's ability to retrieve more than 10 rows of data by purchasing a registration code at the following link:
+
+**https://whitleymedia.onfastspring.com/**
+
+Follow the steps below to register WDLookup.
+
+1. Click on the button to show the registration page.
+
+![image](https://user-images.githubusercontent.com/413552/143470768-ad0445d9-12ad-4c49-95fc-4e772f144cbf.png)
+
+2. Enter the email address that was used to purchase the registration code.
+3. Paste the registration code into the registration code textbox.
+4. Click the **Save** button.  A dialog box will appear to confirm that WDLookup has been successfully registered.
+
+![image](https://user-images.githubusercontent.com/413552/143471980-6a0d88e4-116a-4769-b4f4-3567a30d4b6c.png)
+
 
