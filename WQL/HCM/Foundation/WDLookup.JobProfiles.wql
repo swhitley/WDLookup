@@ -1,6 +1,6 @@
 /*
 Name: WDLookup.JobProfiles
-Purpose: Return a list of job profiles and their reference ids.
+Description: Return a list of job profiles and their reference ids.
 Author: Shannon Whitley
 Company: Whitley Media
 Link: n/a
