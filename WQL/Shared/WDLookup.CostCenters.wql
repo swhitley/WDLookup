@@ -1,6 +1,6 @@
 /*
 Name: WDLookup.CostCenters
-Purpose: Return a list of cost centers and their reference ids.
+Description: Return a list of cost centers and their reference ids.
 Author: Shannon Whitley
 Company: Whitley Media
 Link: n/a
