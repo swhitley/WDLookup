@@ -1,6 +1,6 @@
 /*
 Name: WDLookup.SupervisoryOrganizations
-Purpose: Return a list of supervisory organizations and their reference ids.
+Description: Return a list of supervisory organizations and their reference ids.
 Author: Shannon Whitley
 Company: Whitley Media
 Link: n/a
