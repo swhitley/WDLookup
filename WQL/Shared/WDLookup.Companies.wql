@@ -1,6 +1,6 @@
 /*
 Name: WDLookup.Companies
-Purpose: Return a list of companies and their reference ids.
+Description: Return a list of companies and their reference ids.
 Author: Shannon Whitley
 Company: Whitley Media
 Link: n/a
