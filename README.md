@@ -2,7 +2,12 @@
 
 This is a library of WQL queries. The queries can be used generally with any WQL tool or with the WDLookup Excel Add-in (Windows only).
 
-Anyone is welcome to contribute to this library. Submit a pull request for review.  If you do not know how to submit a pull request, paste the query into a discussion post. Please follow the example to include information about the query.  In the future, there are plans to parse the files and enable an electronic dictionary.
+Anyone is welcome to contribute to this library. Submit a pull request for review.  If you do not know how to submit a pull request, paste the query into a discussion post and mention that you would like it added to the library. Please follow the example to include information about the query.  In the future, there are plans to parse the files and enable an electronic dictionary.
+
+A very handy tool in Workday is the **Convert Report to WQL** report.  Use this report to generate WQL from existing reports.
+
+![image](https://user-images.githubusercontent.com/413552/144367130-94258363-2f81-4a62-bc8d-dccfe544e79e.png)
+
 
 If you will be using the WDLookup Excel Add-in, the configuration instructions are shown below.
 
