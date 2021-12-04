@@ -4,7 +4,7 @@ This is a library of WQL queries. The queries can be used generally with any WQL
 
 Anyone is welcome to contribute to this library. Submit a pull request for review.  If you do not know how to submit a pull request, paste the query into a discussion post and mention that you would like it added to the library. Please follow the query examples to include information about the query (name, description, etc.).  In the future, there are plans to parse the files and enable an electronic dictionary.
 
-Use the **Convert Report to WQL** report to get a headstart with query generation.  This report will generate WQL from existing Workday reports.
+In Workday, use the **Convert Report to WQL** report to get a headstart with query generation.  This report will generate WQL from existing Workday reports.
 
 ![image](https://user-images.githubusercontent.com/413552/144367130-94258363-2f81-4a62-bc8d-dccfe544e79e.png)
 
@@ -111,6 +111,10 @@ The following pieces of information need to be collected during these steps:
 
 ![image](https://user-images.githubusercontent.com/413552/142780581-543f2cf9-9a71-49b3-b38a-1aeff4dca98c.png)
 
+### Security
+
+WDLookup saves the oAuth information to a settings file under %APPDATA%\WDLookup.  The Client Secret is encrypted in the settings file for the specific user and machine.  The encrypted data cannot be transferred to another machine due to the use of standard DPAPI encryption.  Although inconvenient, greater security can be achieved by using expiring tokens. Expiration is configurable in Workday as part of the API Client settings. You can also revoke access to the API Client at any time in Workday. Security questions can be asked in the [Discussions](https://github.com/swhitley/WDLookup/discussions) forum.
+
 ### Running a Query
 
 1. Enter a WQL query into the query textbox.
@@ -131,8 +135,11 @@ The query results will be used to lookup the data in the highlighted cells and t
 
 The reverse lookup feature reverses the process without any change to the query.  The reverse lookup performs a lookup in reverse (the second field is the selector and the first field is the translation); it does not simply undo the results of the previous operation.
 
+The **Find Query** feature performs a search of all saved queries.  It works in coordination with the **tags** field on each query.  When editing a query, enter a tag that will be used with the Find Query action. You can use multiple tags by separating them with a comma.  When you right-click on a cell in the worksheet and select WDLookup->Find Query, the text of the cell will be used to search all queries using their tags.  If a tag on a query matches the text in the selected cell, the *Saved Queries* selector will change and the query editor will be updated with the correct query. This enables the ability to quickly switch between queries when translating different columns of data.
 
-[![Watch the video](https://img.youtube.com/vi/bCCusSF4GGA/maxresdefault.jpg)](https://www.youtube.com/watch?v=bCCusSF4GGA)
+
+[![Watch the video](https://img.youtube.com/vi/bCCusSF4GGA/maxresdefault.jpg)](https://www.youtube.com/watch?v=6AvnQy8Jvvo)
+
 
 
 ### Registering WDLookup
