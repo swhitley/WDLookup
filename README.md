@@ -44,13 +44,14 @@ The following pieces of information need to be collected during these steps:
 
 #### In your Workday tenant...
 
-1. Turn on oAuth 2.0
+1. Enable the domain: **Workday Query Language** and configure permissions.  Users without access to the domain won't be able to make WQL API calls.
+2. Turn on oAuth 2.0
 
     **Search for Task:** Edit Tenant Setup - Security
 
 ![image](https://user-images.githubusercontent.com/413552/142732206-bfdcf00e-b7f9-42f7-a841-5c2836be95cd.png)
 
-2. Register an API Client for Integrations
+3. Register an API Client for Integrations
 
     **Search for Task:** Register API Client for Integrations
 
@@ -66,7 +67,7 @@ The following pieces of information need to be collected during these steps:
 
 ![image](https://user-images.githubusercontent.com/413552/142732320-f7f3a7d5-a851-4d50-889d-c54e84706012.png)
 
-3. View API Clients
+4. View API Clients
 
     **Search for Task:**  View API Clients
 
@@ -75,9 +76,9 @@ The following pieces of information need to be collected during these steps:
         - Workday REST API Endpoint
         - Token Endpoint
 
-4. Click the **API Clients for Integrations** tab.
-5. Click on the link for your newly created API Client.
-6. Use the related action to click **API Client**, **Manage Refresh Tokens for Integrations**.
+5. Click the **API Clients for Integrations** tab.
+6. Click on the link for your newly created API Client.
+7. Use the related action to click **API Client**, **Manage Refresh Tokens for Integrations**.
 
 ![image](https://user-images.githubusercontent.com/413552/142732556-152d8dad-e806-4bfb-8598-9cbe2ea87b31.png)
 
@@ -104,7 +105,7 @@ The following pieces of information need to be collected during these steps:
    <img src="https://user-images.githubusercontent.com/413552/142780606-39f4fbb3-4709-4cf2-893a-d9d4762ddcfe.png" width="32" />
 3. If the Name is not already set to "{New}", click the **Add API Client** button.
 4. Name your API Client. You can use any name that makes sense to you.
-5. Enter the API Client information from Workday.
+5. Enter the API Client information from Workday in the corresponding fields.
 6. Leave **Access Token** blank.
 7. Click **Save** to save the API Client.
 8. Click **Test** to verify a successful connection to Workday.
