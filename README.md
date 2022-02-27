@@ -18,11 +18,15 @@ WDLookup is a Microsoft Excel Add-in (Windows only) that enables querying data f
 
 If you would like to use WDLookup to execute the queries from this library, download and install WDLookup from the following link. 
 
-**https://whitleymedia.onfastspring.com/**
+**https://github.com/swhitley/WDLookup/releases/latest**
 
 **IMPORTANT:** The add-in is fully-functional except that it is limited to returning *10 rows of data per query*. This limitation can affect your ability to translate data using the **Lookup** feature.  Remember that only the first 10 rows of the lookup query are returned so data outside of the first 10 rows cannot be translated. 
 
-Purchase a registration code to unlock the ability to return all rows of data.
+Request a FREE registration code to unlock the ability to return all rows of data from the following site. Your information will not be sold or used in annoying spam campaigns. I ask for registration to track who uses WDLookup so that I can prioritize feature updates.
+
+**https://whitleymedia.onfastspring.com/**
+
+
 
 ## Workday API Client Setup for WDLookup
 
@@ -145,7 +149,7 @@ The **Find Query** feature performs a search of all saved queries.  It works in 
 
 ### Registering WDLookup
 
-Unlock WDLookup's ability to retrieve more than 10 rows of data by purchasing a registration code at the following link:
+Unlock WDLookup's ability to retrieve more than 10 rows of data by registering the product at the following link:
 
 **https://whitleymedia.onfastspring.com/**
 
